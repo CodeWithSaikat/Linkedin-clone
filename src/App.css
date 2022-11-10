@@ -1,0 +1,9 @@
+.app {
+  height: 100vh;
+  /* padding: 0 80px; */
+}
+.app_body {
+  display: flex;
+  margin: 15px 90px;
+  flex: 1;
+}

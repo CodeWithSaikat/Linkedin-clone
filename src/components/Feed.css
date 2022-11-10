@@ -1,0 +1,62 @@
+.feed {
+  flex: 0.5;
+  /* border: 1px solid black; */
+  margin: 0 25px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.feed__input {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 9px 12px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.feed .icon-button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.feed .icon-button button {
+  padding: 9px 20px;
+  margin-left: 9px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 gray;
+}
+.feed__input > .icon-button > input {
+  width: 100%;
+  margin-left: 12px;
+  font-size: 16px;
+  padding: 16px 13px;
+  border-radius: 35px !important;
+  border: none;
+  outline: none;
+  font-weight: 400;
+  color: gray;
+  box-shadow: 0 0 5px 0 gray;
+  text-align: left;
+}
+.feed__input > .icon-button > button:hover {
+  cursor: pointer;
+  background-color: rgb(233, 227, 227);
+}
+.feed__input .icon-button .MuiAvatar-root {
+  width: 55px;
+  height: 50px;
+}
+
+.feed__inputIcons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 200;
+}
